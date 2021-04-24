@@ -102,7 +102,7 @@ p {
   transition: all .2s;
 }
 
-.intro__inner{
+.intro__inner {
   display: flex;
   padding-top: 6.6rem;
   padding-bottom: 8rem;
@@ -111,37 +111,69 @@ p {
   border-bottom: 1px solid black;
 }
 
-.intro__subtitle{  
+.intro__subtitle {
   color: var(--black);
   font-weight: 200;
   font-size: 2rem;
 }
 
-.intro__title{
-  color:var(--black);
+.intro__title {
+  color: var(--black);
   font-weight: bold;
   font-size: 3rem;
   margin-bottom: 5px;
 }
 
-.intro__text{
+.intro__text {
   color: var(--black);
   font-size: 1.2rem;
   opacity: 0.7;
 }
 
-.social{
+.social {
   margin-top: 2rem;
   margin-bottom: 2.5rem;
   display: flex;
 }
 
-.social__link{
+.social__link {
   margin-right: 0.75rem;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
-.social__link:hover{
+.social__link:hover {
   transform: translateY(-5px);
   transition: all .2s;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1rem 2rem;
+  width: 12.5rem;
+
+  border: 1px solid black;
+  border-radius: 1.8rem;
+  background: none;
+  cursor: pointer;
+
+  font-size: 1rem;
+  color: var(--black);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+}
+
+.intro__photo {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  z-index: 1;
+  margin-bottom: 1rem;
 }
