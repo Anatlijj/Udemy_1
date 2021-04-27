@@ -33,6 +33,7 @@ p {
 
 .container {
   width: 100%;
+  /* Щирина блока */
   max-width: 1200px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -187,9 +188,9 @@ p {
   font-weight: bold;
 }
 
-.works{
-margin-bottom: 7rem;
-/* Отступ снизу */
+.works {
+  margin-bottom: 7rem;
+  /* Отступ снизу */
 }
 
 .portfolio {
@@ -197,7 +198,7 @@ margin-bottom: 7rem;
   flex-wrap: wrap;
   /*Данное свойство нужно для переноса объектов
    не следующую строчку если их становиться много*/
-   justify-content: space-between;
+  justify-content: space-between;
 }
 
 .work {
@@ -221,10 +222,10 @@ margin-bottom: 7rem;
   text-transform: uppercase;
   /* Управляет преобразованием текста элемента в
    заглавные или прописные символы */
-   margin-bottom: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
-.work_title{
+.work_title {
   display: flex;
   /* div разных размеров, которые находятся внутри 
   серого div. У каждого div есть свойство 
@@ -241,3 +242,95 @@ margin-bottom: 7rem;
   text-transform: uppercase;
 }
 
+.about__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 7rem;
+}
+
+.about__photo {
+  max-width: 50%;
+  padding-left: 3.5rem;
+}
+
+.about__content {
+  width: 50%;
+  margin-top: 5rem;
+  padding-left: 7.5rem;
+}
+
+.about__title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.about__bigtitle {
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: var(--gray-light);
+  text-transform: uppercase;
+}
+
+.about__text {
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem;
+
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--gray);
+}
+
+.reviews {
+  background: #332f30 url(/images/revievs.png) center no-repeat;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.reviews__inner {
+  width: 100%;
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.reviews__text {
+  font-size: 0.9rem;
+  color: var(--gray-light);
+  text-align: center;
+}
+
+.reviews__author {
+  width: 100%;
+  margin-top: -51px;
+
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.reviews__company {
+  margin-bottom: 0.3rem;
+
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.reviews__name {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--gray);
+  font-weight: 300;
+  font-style: italic;
+}
+
+.reviews__rating {
+  margin-bottom: 6rem;
+}
+
+.reviews__star_unactive{
+  opacity: 0.3;
+}
