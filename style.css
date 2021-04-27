@@ -176,3 +176,68 @@ p {
   margin-bottom: 1rem;
 }
 
+.text__center {
+  margin-top: 3.5rem;
+  /* Отступ сверху */
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  font-size: 2.8rem;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.works{
+margin-bottom: 7rem;
+/* Отступ снизу */
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  /*Данное свойство нужно для переноса объектов
+   не следующую строчку если их становиться много*/
+   justify-content: space-between;
+}
+
+.work {
+  overflow: hidden;
+  box-shadow: 0 0 4px black;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.work:hover {
+  box-shadow: 0 0 25px black;
+}
+
+.work__content {
+  padding: 1rem 0.8rem;
+}
+
+.work__cat {
+  font-size: 0.75rem;
+  color: var(--black);
+  text-transform: uppercase;
+  /* Управляет преобразованием текста элемента в
+   заглавные или прописные символы */
+   margin-bottom: 0.4rem;
+}
+
+.work_title{
+  display: flex;
+  /* div разных размеров, которые находятся внутри 
+  серого div. У каждого div есть свойство 
+  display: block. Поэтому каждый блок занимает 
+  всю ширину строки. Чтобы начать работать с CSS Flexbox, 
+  нужно сделать контейнер flex-контейнером. */
+
+  justify-content: space-between;
+  /* Отвечает за выравнивание элементов по главной оси */
+
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
