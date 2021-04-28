@@ -157,6 +157,7 @@ p {
   cursor: pointer;
 
   font-size: 1rem;
+  font-weight: bold;
   color: var(--black);
   text-transform: uppercase;
   text-decoration: none;
@@ -331,7 +332,120 @@ p {
   margin-bottom: 6rem;
 }
 
-.reviews__star_unactive{
+.reviews__star_unactive {
   opacity: 0.3;
 }
 
+.courses {
+  margin-top: 14rem;
+  margin-bottom: 8rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.margin {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.courses__inner {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course {
+  width: 33.33%;
+  padding: 0 1rem;
+}
+
+.course__name {
+  margin-top: 1.3rem;
+  margin-bottom: 0.6rem;
+
+  font-size: 1.1rem;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.course__cat{
+  font-size: 0.75rem;
+  color: var(--gray);
+  margin-bottom: 1.5rem;
+
+}
+
+.course__text{
+  font-size: 0.75rem;
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.btn__edit{
+  margin-top: 1.5rem;
+  width: 130px;
+  height: 34px;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.link{
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.coursse__link{
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+
+.footer{
+  padding: 1rem 0;
+  background-color: #2b2a2c;
+}
+
+.footer__inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__info{
+  display: flex;
+  align-items: center;
+}
+
+.footer__copyright{
+  font-size: 0.9rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  color: var(--gray);
+  border-right: 1px solid var(--gray);
+}
+
+.footer__social{
+  display: flex;
+  align-items: center;  
+}
+
+.footer__link{
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.footer__nav{
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav_link{
+  font-size: 0.9rem;
+  color: var(--gray);
+  text-decoration: none;
+  margin-left: 1rem;
+}
