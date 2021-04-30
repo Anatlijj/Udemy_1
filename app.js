@@ -11,4 +11,21 @@ $(function () {
 
   });
 
+// Функция плавного скролла к нужному блоку с помошью data-scroll="#..."
+
+
+
+  $("[data-modal]").on("click", function (event) {
+    event.preventDefault();
+
+    $(modal__resume).addClass('show');
+  });
+
+  $(modal__resume).on('click', function () {
+    $(modal__resume).removeClass('show');
+  });
+
+
 });
+
+// Функцыя присвоения и отзыва класса "show" для открытия и закрытия модального окна при клике

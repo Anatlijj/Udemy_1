@@ -15,11 +15,11 @@
 
 <body>
 
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
       <div class="header__inner">
         <div class="user">
-          <img class="user__avatar" src="avatar_photo.png" alt="#">
+          <img class="user__avatar" src="images/avatar_photo.png" alt="#">
           <div class="user__content">
             <div class="user__name">Dominik <br> Kuzmicki</div>
             <div class="user__prof">Full-Stack Web Developer</div>
@@ -62,7 +62,7 @@
               <img src="images/twitter.png" alt="">
             </a>
           </div>
-          <button class="btn" tape="button">SEE MY RESUME</button>
+          <button class="btn" tape="button" data-modal="#modal__resume">SEE MY RESUME</button>
         </div>
         <img class="intro__photo" src="images/photo.png" alt="#">
       </div>
@@ -127,7 +127,7 @@
               molestias natus qui exercitationem, tempore saepe vero ex voluptates quas dolore officia omnis nisi illo
               adipisci aut ullam.</p>
           </div>
-          <button class="btn" tape="button">SEE MY RESUME</button>
+          <button class="btn" tape="button" data-modal="#modal__resume">SEE MY RESUME</button>
         </div>
       </div>
     </div>
@@ -252,11 +252,21 @@
 
   <div class="modal" id="modal__resume">
     <div class="modal__dialog">
-      <h3>RESUME</h3>
-      <img src="images/resume.jpg" alt="">
-      <a href="images/resume.jpg"></a>
+      <h3 class="modal__title">RESUME</h3>
+      <img class="modal__photo" src="images/resume.jpg" alt="">
+      <a class="btn btn__edit btn__modal" href="images/resume.jpg" download="">Download</a>
     </div>
   </div>
+
+
+ <div class="refund">
+   <div class="container">
+     <a href="" data-scroll="#header">
+       <img class="refund__img" src="images/top.png" width="32px" height="32px" alt="">
+     </a>
+   </div>
+ </div>
+
 
   <script src="app.js"></script>
 
