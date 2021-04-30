@@ -501,15 +501,6 @@ p {
   bottom: 7px;
 }
 
-.refund__img {
-  opacity: 90%;
-  border-radius: 50%;
-  box-shadow: 0 0 5px var(--black);
-}
-
-.refund__img:hover{
-  box-shadow: 0 0 15px var(--black);
-}
 
 
 
